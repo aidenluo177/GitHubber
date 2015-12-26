@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (3.1.4)
+  - CoreStore (1.3.5):
+    - GCDKit (= 1.1.5)
+  - GCDKit (1.1.5)
+  - Moya (5.1.0):
+    - Moya/Core (= 5.1.0)
+  - Moya/Core (5.1.0):
+    - Alamofire (~> 3.0)
+  - ObjectMapper (1.0.1)
+  - p2.OAuth2 (2.1):
+    - SwiftKeychain (~> 0.1.5)
+  - SwiftKeychain (0.1.5)
+
+DEPENDENCIES:
+  - CoreStore
+  - Moya
+  - ObjectMapper
+  - p2.OAuth2
+
+SPEC CHECKSUMS:
+  Alamofire: fbc829692f351fa1d8a31dd75fd7f7f56fea31fb
+  CoreStore: 2e52e2634a0924cd0e55b49035da8d0fa5118464
+  GCDKit: 1dacc836052dd7dd777022f4b30b94beac68b338
+  Moya: 416bd447f66f1e4c31aabf5914edf221479bdc49
+  ObjectMapper: 98524bac0dca46c6b3d5ee02cd410fc700ec6ce2
+  p2.OAuth2: 78da70ba63515176a4f5273fad960f36bbeac6d9
+  SwiftKeychain: 1387edad8b56c659daa93d9ffc99526bac5b0088
+
+COCOAPODS: 0.39.0

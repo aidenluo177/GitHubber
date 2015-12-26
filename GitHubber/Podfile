@@ -1,0 +1,24 @@
+xcodeproj 'GitHubber.xcodeproj'
+
+# Uncomment this line to define a global platform for your project
+platform :ios, '9.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+target 'GitHubber' do
+
+  pod 'Moya'
+  pod 'CoreStore'
+  pod 'p2.OAuth2'
+  pod 'ObjectMapper'
+
+end
+
+target 'GitHubberTests' do
+
+end
+
+target 'GitHubberUITests' do
+
+end
+
